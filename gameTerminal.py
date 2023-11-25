@@ -22,7 +22,7 @@ def print_board(board):
 
 def move_left(board):
     for i in range(4):
-        merged = [False] * 4  # Track if merge has occurred in each row
+        merged = [False] * 4
         for j in range(1, 4):
             if board[i][j] != 0:
                 k = j
